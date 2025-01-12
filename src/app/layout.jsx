@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.scss";
 import { NextUIProviders } from "./Providers/NextUIProvider";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           <Header />
 
           {children}
-          <Footer/>
+          <Footer />
         </NextUIProviders>
       </body>
     </html>

@@ -50,3 +50,21 @@ nav{
     text-wrap: balance;
   }
 }
+.swiper-slide {
+  font-size: 16px;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.swiper-slide-active {
+  font-weight: bold;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.swiper-button-prev{    
+  color:#FF3200 !important; 
+}
+.swiper-button-next{    
+  color:#FF3200 !important;
+}

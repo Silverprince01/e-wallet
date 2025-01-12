@@ -2,6 +2,7 @@ export const routes = [
     {
       id: 1,
       rname: "Home",
+      
     },
     {
       id: 2,
