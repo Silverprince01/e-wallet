@@ -9,11 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/styled": "^11.14.0",
     "@nextui-org/react": "^2.3.6",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-slick": "^0.30.2",
+    "react-responsive-carousel": "^3.2.23",    
     "sass": "^1.77.8",
     "scss": "^0.2.4",
     "slick-carousel": "^1.8.1",

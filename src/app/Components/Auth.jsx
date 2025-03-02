@@ -36,7 +36,7 @@ const Auth = () => {
               return (
                 input.type === "password" && (
                   <button type="button" className="absolute bottom-5 right-[1%]">
-                    <Image src={Eye} width={14} height={14} />
+                    <Image src={Eye} width={14} height={14} alt="icon" />
                   </button>
                 )
               );
@@ -61,17 +61,17 @@ const Auth = () => {
             <div className="w-[40%] flex justify-between items-center">
               <div className="bg-[#FF32000D] w-[74px] h-[74px] rounded-full flex justify-center items-center">
                 <div className="bg-[#FF320033] w-[55px] h-[55px] rounded-full flex justify-center items-center">
-                  <Image src={Google} width={30} height={30} />
+                  <Image src={Google} width={30} height={30} alt="icon"/>
                 </div>
               </div>
               <div className="bg-[#FF32000D] w-[74px] h-[74px] rounded-full flex justify-center items-center">
                 <div className="bg-[#FF320033] w-[55px] h-[55px] rounded-full flex justify-center items-center">
-                  <Image src={Facebook} width={30} height={30} />
+                  <Image src={Facebook} width={30} height={30} alt="icon"/>
                 </div>
               </div>
               <div className="bg-[#FF32000D] w-[74px] h-[74px] rounded-full flex justify-center items-center">
                 <div className="bg-[#FF320033] w-[55px] h-[55px] rounded-full flex justify-center items-center">
-                  <Image src={Apple} width={30} height={30} />
+                  <Image src={Apple} width={30} height={30} alt="icon"/>
                 </div>
               </div>
             </div>

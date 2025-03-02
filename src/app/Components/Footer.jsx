@@ -33,7 +33,7 @@ const Footer = ({ route }) => {
       <div className="flex justify-center gap-6 items-center py-8 border-b-2 border-solid border-[#262626] w-full">
         <Button
           startContent={
-            <Image src={Mail} width={15} height={15} objectFit="contain" />
+            <Image src={Mail} width={15} height={15} objectFit="contain" alt="mail"/>
           }
           className="flex gap-2"
         >
@@ -41,7 +41,7 @@ const Footer = ({ route }) => {
         </Button>
         <Button
           startContent={
-            <Image src={Call} width={15} height={15} objectFit="contain" />
+            <Image src={Call} width={15} height={15} objectFit="contain" alt="call"/>
           }
           className="flex gap-2"
         >
@@ -49,7 +49,7 @@ const Footer = ({ route }) => {
         </Button>
         <Button
           startContent={
-            <Image src={Location} width={15} height={15} objectFit="contain" />
+            <Image src={Location} width={15} height={15} objectFit="contain" alt="location"/>
           }
           className="flex gap-2"
         >
@@ -60,13 +60,14 @@ const Footer = ({ route }) => {
       <div className=" bg-[#1A1A1A] border-[#262626] border-solid border-2 rounded-[50px] p-[20px]  flex justify-between items-center h-[45px] w-full my-10">
         <div className="flex items-center gap-2">
           <Button isIconOnly radius="full" className="bg-[#FF3200] p-2">
-            <Image src={FaceBook} width={15} height={15} />
+            <Image src={FaceBook} width={15} height={15} alt="face"/>
           </Button>
           <Button isIconOnly radius="full" className="bg-[#FF3200] p-2">
-            <Image src={Twitter} width={15} height={15} />
+            <Image src={Twitter} width={15} height={15} alt="twit"
+            />
           </Button>
           <Button isIconOnly radius="full" className="bg-[#FF3200] p-2">
-            <Image src={Linkedin} width={15} height={15} />
+            <Image src={Linkedin} width={15} height={15} alt="link"/>
           </Button>
         </div>
 

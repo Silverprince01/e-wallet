@@ -1,4 +1,3 @@
-import { idText } from "typescript";
 
 export const carouselData = [
   {
@@ -31,3 +30,36 @@ export const carouselData = [
       "I love the convenience of YourBank's mobile banking app. It allows me to stay on top of my finances and make transactions on the go. The app is user-friendly and secure, giving me peace of mind.",
   },
 ];
+
+export const verticalCarouselData = [
+  {
+    id:1,
+    nam:"Alli Ibrahim",
+    amount:"68.00"
+  },
+  {
+    id:2,
+    nam:"Adeleke Kunola",
+    amount:"48.00"
+  },
+  {
+    id:3,
+    nam:"Muibi Muhammed",
+    amount:"108.00"
+  },
+  {
+    id:4,
+    nam:"Adio Usman",
+    amount:"608.00"
+  },
+  {
+    id:5,
+    nam:"Abolarin Mutahir",
+    amount:"80.00"
+  },
+  {
+    id:1,
+    nam:"Badru Fuad",
+    amount:"150.00"
+  },
+]
